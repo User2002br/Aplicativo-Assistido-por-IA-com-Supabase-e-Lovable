@@ -6,7 +6,7 @@ Copiar
 Editar
 # API REST – Tabela `tarefas` (Supabase)
 
-Base URL: `https://<SEU-PROJETO>.supabase.co/rest/v1/tarefas`
+Base URL: `postgresql://postgres:[YOUR-PASSWORD]@db.exjejvadsweaqqxiejsx.supabase.co:5432/postgres`
 
 ## 🔐 Autenticação
 
