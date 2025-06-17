@@ -1,0 +1,1 @@
+# Aplicativo-Assistido-por-IA-com-Supabase-e-Lovable
