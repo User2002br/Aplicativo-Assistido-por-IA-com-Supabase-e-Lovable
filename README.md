@@ -34,6 +34,7 @@ Todos os endpoints exigem:
 Resposta:
 201 Created com a tarefa criada
 
+```
 📤 Listar tarefas
 GET /rest/v1/tarefas
 
@@ -46,6 +47,8 @@ Resposta:
 json
 Copiar
 Editar
+
+```
 [
   {
     "id": 1,
@@ -58,6 +61,8 @@ Editar
     "created_at": "2025-06-10T00:00:00Z"
   }
 ]
+
+```
 ✏️ Atualizar tarefa
 PATCH /rest/v1/tarefas?id=eq.1
 
