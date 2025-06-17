@@ -19,7 +19,9 @@ Todos os endpoints exigem:
 
 ## 📥 Criar uma tarefa
 
+```
 **POST** `/rest/v1/tarefas`
+```
 
 ## Requisição:
 ```json
@@ -37,7 +39,10 @@ Resposta:
 201 Created com a tarefa criada
 
 ## 📤 Listar tarefas
+
+```
 GET /rest/v1/tarefas
+```
 
 ## Exemplo:
 http
@@ -65,7 +70,10 @@ Editar
 
 ```
 ## ✏️ Atualizar tarefa
+
+```
 PATCH /rest/v1/tarefas?id=eq.1
+```
 
 Requisição:
 json
