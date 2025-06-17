@@ -1,6 +1,6 @@
 # Aplicativo-Assistido-por-IA-com-Supabase-e-Lovable
 
-📘 1. Documentação
+## 📘 1. Documentação
 markdown
 Copiar
 Editar
@@ -21,7 +21,7 @@ Todos os endpoints exigem:
 
 **POST** `/rest/v1/tarefas`
 
-### Requisição:
+## Requisição:
 ```json
 {
   "usuario_id": 101,
@@ -31,14 +31,15 @@ Todos os endpoints exigem:
   "status": "Em andamento",
   "data_limite": "2025-06-20"
 }
+
+```
 Resposta:
 201 Created com a tarefa criada
 
-```
-📤 Listar tarefas
+## 📤 Listar tarefas
 GET /rest/v1/tarefas
 
-Exemplo:
+## Exemplo:
 http
 Copiar
 Editar
@@ -63,22 +64,25 @@ Editar
 ]
 
 ```
-✏️ Atualizar tarefa
+## ✏️ Atualizar tarefa
 PATCH /rest/v1/tarefas?id=eq.1
 
 Requisição:
 json
 Copiar
 Editar
+```
 {
   "status": "Concluído"
 }
+```
 Resposta:
 204 No Content (sem conteúdo, sucesso)
 
-🗑️ Deletar tarefa
+## 🗑️ Deletar tarefa
+```
 DELETE /rest/v1/tarefas?id=eq.1
-
+```
 Remove a tarefa com id = 1
 
 Resposta: 204 No Content
