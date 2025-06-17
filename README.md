@@ -20,7 +20,7 @@ Todos os endpoints exigem:
 ## 📥 Criar uma tarefa
 
 ```
-**POST** `/rest/v1/tarefas`
+POST `/rest/v1/tarefas`
 ```
 
 ## Requisição:
