@@ -1,6 +1,6 @@
 # Aplicativo-Assistido-por-IA-com-Supabase-e-Lovable
 
-📘 1. Documentação em Markdown
+📘 1. Documentação
 markdown
 Copiar
 Editar
@@ -96,8 +96,6 @@ Editar
 ---
 
 ## 📄 2. OpenAPI (Swagger) – JSON
-
-Se você quiser importar a API num Swagger UI, Postman ou gerar SDKs, aqui está um trecho básico em formato OpenAPI:
 
 ```json
 {
